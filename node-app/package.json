@@ -1,0 +1,16 @@
+{
+  "name": "walc2023_track5_ci-cd",
+  "version": "1.0.0",
+  "description": "Track 5 CI/CD - WALC 2023",
+  "main": "app.js",
+  "scripts": {
+    "test": "Track 5 CI/CD - WALC 2023"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "collections": "^5.1.13",
+    "express": "^4.18.2"
+  }
+}
