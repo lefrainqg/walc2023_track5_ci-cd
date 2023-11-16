@@ -26,7 +26,7 @@ app.get('/api/goodbye', (req, res) => {
 });
 
 //POST endpoint - Add new email to list
-/*app.post('/api/addEmail', function(req, res) {
+app.post('/api/addEmail', function(req, res) {
   var email = req.body.email
   email_list.push(email)
   res.json({ message: `Email ${email} added` });
@@ -53,7 +53,7 @@ app.delete('/api/removeEmail', (req, res) => {
   var email = req.body.email
   email_list.delete(email)
   res.json({ message: `Email ${email} deleted` });
-});*/
+});
 
 //Listening port
 app.listen(port, () => {
