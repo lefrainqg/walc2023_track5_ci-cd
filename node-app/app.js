@@ -10,7 +10,7 @@ app.use(bodyParser.raw());
 const port = 3000;
 
 var email_list = new List([]);
-
+//Home Page
 app.get('/', (req, res) => {
   res.send(' Track 5 - WALC 2023 - CI/CD LAB');
 });
