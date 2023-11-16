@@ -27,7 +27,7 @@ app.get('/api/goodbye', (req, res) => {
 
 //POST endpoint - Add new email to list
 app.post('/api/addEmail', function(req, res) {
-  var email = req.body.email
+  var email = req.body.emailcle
   email_list.push(email)
   res.json({ message: `Email ${email} added` });
 });
