@@ -23,4 +23,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: julian92/walc2023_track5_ci-cd:github-actions
+          tags: lefrainqg/walc2023_track5_ci-cd:github-actions
